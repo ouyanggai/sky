@@ -1,0 +1,18 @@
+# Designated language. https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+language: node_js
+
+# Environment variables
+env:
+  global:
+    - GitHub_REF: https://github.com/ouyanggai/sky.git
+
+# Install dependence
+install:
+  - npm install
+  - npm install -g codecov
+
+# Cache the node_modules folder and don't need to download and install all npm packages every time.
+cache:
+  directories:
+    - node_modules
+# Specify the node version.
