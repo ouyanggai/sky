@@ -6,7 +6,7 @@
     "animejs": "^3.1.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "craco start",
@@ -33,7 +33,7 @@
     "@craco/craco": "^5.4.0",
     "antd": "^3.23.1",
     "craco-antd": "^1.12.0",
-    "eslint": "^6.3.0",
+    "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^2.0.1",
     "less": "^3.10.3",
     "less-loader": "^5.0.0"
